@@ -1,10 +1,10 @@
 class LocalData < Formula
   desc "Local Hadoop + Hive + Spark development environment for macOS"
   homepage "https://github.com/danieljhkim/local-data-platform"
-  url "https://github.com/danieljhkim/local-data-platform/releases/download/v0.2.0/local-data_0.2.0_darwin_arm64.tar.gz"
-  sha256 "9852ca83864da6f68adba63eade9b96faff7c68d3e1cf0960d08df1b4b91f175"
+  url "https://github.com/danieljhkim/local-data-platform/releases/download/v0.2.1/local-data_0.2.1_darwin_arm64.tar.gz"
+  sha256 "673bc5db8cc36f6fb0734c155d7dd0063432b2731c46d611a0f6ed81619d17d0"
   license "MIT"
-  version "0.2.0"
+  version "0.2.1"
 
   depends_on "openjdk@17"
   depends_on "hadoop"
