@@ -1,18 +1,18 @@
 class Orbit < Formula
   desc "Local-first agentic workflow engine for agent-driven software delivery"
   homepage "https://github.com/danieljhkim/orbit"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/danieljhkim/orbit/releases/download/v0.4.0/orbit-aarch64-apple-darwin.tar.gz"
-      sha256 "fb6490cc11ff4431ccb26bc24472fddc184311b4b031e8483767aa1fc2f23ea2"
+      url "https://github.com/danieljhkim/orbit/releases/download/v0.5.0/orbit-aarch64-apple-darwin.tar.gz"
+      sha256 "336f1400daca5d2de2b31854ee5d0c7676120ae858dc987fd6f7fef63f5da3c3"
     end
 
     on_intel do
-      url "https://github.com/danieljhkim/orbit/releases/download/v0.4.0/orbit-x86_64-apple-darwin.tar.gz"
-      sha256 "9cad614c7c6152eb94c21b62e9790a4e0ac0ee73ca9cb0f4984731efa6b435cf"
+      url "https://github.com/danieljhkim/orbit/releases/download/v0.5.0/orbit-x86_64-apple-darwin.tar.gz"
+      sha256 "c4ddf06c837dc143cc86fb4a26829c074c78e15078229555653d750f05f41368"
     end
   end
 
