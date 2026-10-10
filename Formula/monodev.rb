@@ -1,9 +1,9 @@
 class Monodev < Formula
   desc "Local-only CLI for managing reusable dev overlays across large monorepos"
   homepage "https://github.com/danieljhkim/monodev"
-  url "https://github.com/danieljhkim/monodev/releases/download/v0.3.1/monodev_0.3.1_darwin_arm64.tar.gz"
-  sha256 "1cbba633f9b8537accb8284bc0a9452a33a63ef24e542d9980ba41ac67b0c15d"
-  version "0.3.1"
+  url "https://github.com/danieljhkim/monodev/releases/download/v0.4.0/monodev_0.4.0_darwin_arm64.tar.gz"
+  sha256 "ed6384e6cdc7f1d306c7d9811b02e7ac4dfefa0daf750209520aff892607a9b4"
+  version "0.4.0"
 
   def install
     bin.install "monodev"
